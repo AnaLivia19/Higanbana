@@ -10,10 +10,6 @@
   
 # Telas
 
-<p align="center">
-  <img src="" width="300px">
-</p>
-
 | Tela Inicial | Tela Login | Tela de Estoque |
 |------------------|--------------------------|-------------------------|
 | <img src="Img/Tela Inicial.jpeg" width="200px"> | <img src="Img/Tela Login.jpeg" width="200px"> | <img src="Img/Tela Estoque.jpeg" width="200px"> |
