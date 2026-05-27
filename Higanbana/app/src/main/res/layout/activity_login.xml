@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#9A0007">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/higanbana"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Higanbana"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#FDFBF7"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FDFBF7"
+        android:textColor="#FDFBF7"
+        android:backgroundTint="#FDFBF7"
+        android:hint="Usuário"
+        android:layout_marginTop="24dp"/>
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FDFBF7"
+        android:textColorHint="#FDFBF7"
+        android:backgroundTint="#FDFBF7"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDFBF7"
+        android:textColor="#1C1A17"
+        android:text="ENTRAR"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDFBF7"
+        android:textColor="#1C1A17"
+        android:text="Voltar ao Início"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

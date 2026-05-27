@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#9A0007">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FDFBF7"
+        android:text="Atualizar Produto"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtNomeAtualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FDFBF7"
+        android:textColor="#FDFBF7"
+        android:backgroundTint="#FDFBF7"
+        android:layout_marginTop="24dp"
+        android:hint="Nome"/>
+
+    <EditText
+        android:id="@+id/edtQuantidadeAtualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColorHint="#FDFBF7"
+        android:textColor="#FDFBF7"
+        android:backgroundTint="#FDFBF7"
+        android:hint="Quantidade"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edtPrecoAtualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColorHint="#FDFBF7"
+        android:textColor="#FDFBF7"
+        android:backgroundTint="#FDFBF7"
+        android:hint="Preço"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnAtualizarProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDFBF7"
+        android:textColor="#1C1A17"
+        android:text="Atualizar"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnCancelarAtualizacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDFBF7"
+        android:textColor="#1C1A17"
+        android:text="Voltar ao Início"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>
